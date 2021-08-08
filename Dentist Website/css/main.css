@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 80px;
+    font-size: 1rem;
+}
+
+#logIn {
+    background-color: #CDE6BE;
+}
+
+#home .information {
+    padding: 0 2rem;
+    padding-top: 2rem;
+}
+
+#image img {
+    display: flex;
+    width: 30vw;
+    height: 45vh;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+#image .image-row-1 {
+    padding: 0 1rem;
+}
+
+#image .image-row-2 {
+    padding: 0 1rem;
+}
+
+#home .information .lists .list1 {
+    padding-right: 15rem;
+}
+
+#appointment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#appointment .appointment-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0 1rem 0;
+}
+
+#appointment .appointment-text hr {
+    background-color: white;
+    opacity: 1;
+    width: 100%;
+}
+
+#appointment .appointment-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    margin: 1rem 0 3rem 0;
+}
+
+#appointment .mb-3 {
+    width: 100%;
+}
+
+
+#appointment button {
+    display: block;
+    width: 100%;
+}
+
+#logIn .mb-3 input{
+    border: 1px solid black;
+}
+
+#contact .icons a {
+    font-size: 2rem;
+}
+
+#contact .icons .instagram a{
+    color: red;
+    padding-right: 4rem;
+}
+
+#contact .icons .facebook a{
+    color: white;
+    padding-right: 4rem;
+}
+
+#contact .icons .twitter a{
+    color: white;
+}
